@@ -1,0 +1,22 @@
+.extensionBody {
+    background-image: url("https://wallpapercave.com/wp/wp4732727.jpg");
+    width: 90px;
+    height: auto;
+    border-style: groove;
+    border-color: cadetblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px;
+}
+
+.extensionBody {
+    text-align: center;
+}
+
+.timeClass {
+    font-style: initial;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    text-shadow: 0.5px 0.5px #003300;
+}

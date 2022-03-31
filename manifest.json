@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "View Time",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "64": "img/icon64.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "View time"
+    },
+    "icons": {
+        "64": "img/icon64.png"
+    },
+    "author": "Vaishnav Dixit",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content-script.js"],
+            "css": ["css/style.css"]
+        }
+    ],
+    "description": "View time in your extension!"
+}
